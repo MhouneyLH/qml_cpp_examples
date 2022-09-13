@@ -10,7 +10,6 @@ class TestPlugin : public QQmlExtensionPlugin
 
 public:
     void registerTypes(const char* uri);
-    void initializeEngine(QQmlEngine* engine, const char* uri);
 };
 
 #endif // TESTPLUGIN_H96C30971E562409D9DC217D9189F430D
