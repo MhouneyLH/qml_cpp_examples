@@ -1,4 +1,9 @@
-QT += quick
+QT += quick qml
+
+TEMPLATE = lib
+CONFIG += qt plugin
+DESTDIR = $$PWD/inst
+TARGET = TestPlugin
 
 SOURCES += \
         TestPlugin.cpp \
@@ -21,7 +26,10 @@ HEADERS += \
 #CONFIG += qt plugin
 #QT += qml
 
+#RESOURCES += qml/plugin/testPlugin.qrc
 #DESTDIR = qml/plugin
-#TARGET = plugin
+#TARGET = TestPlugin
 #SOURCES += \
 #    TestPlugin.cpp
+#HEADERS += \
+#    TestPlugin.h

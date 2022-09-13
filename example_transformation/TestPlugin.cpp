@@ -7,8 +7,4 @@ void TestPlugin::registerTypes(const char* uri)
     qmlRegisterType<QObject>(uri, 1, 0, "Clock");
 }
 
-void TestPlugin::initializeEngine(QQmlEngine* engine, const char* uri)
-{
-}
-
 #include "moc_TestPlugin.cpp"
