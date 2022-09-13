@@ -1,9 +1,9 @@
-#ifndef PLUGIN_HB66EA0AD696740F8A5561A62C23792B3
-#define PLUGIN_HB66EA0AD696740F8A5561A62C23792B3
+#ifndef TESTPLUGIN_H96C30971E562409D9DC217D9189F430D
+#define TESTPLUGIN_H96C30971E562409D9DC217D9189F430D
 
 #include <QQmlExtensionPlugin>
 
-class Plugin : public QQmlExtensionPlugin
+class TestPlugin : public QQmlExtensionPlugin
 {
     Q_OBJECT
     Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
@@ -13,4 +13,4 @@ public:
     void initializeEngine(QQmlEngine* engine, const char* uri);
 };
 
-#endif // PLUGIN_HB66EA0AD696740F8A5561A62C23792B3
+#endif // TESTPLUGIN_H96C30971E562409D9DC217D9189F430D

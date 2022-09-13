@@ -1,7 +1,7 @@
 QT += quick
 
 SOURCES += \
-        Plugin.cpp \
+        TestPlugin.cpp \
         main.cpp
 
 RESOURCES += qml/qml.qrc
@@ -12,4 +12,16 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    Plugin.h
+    TestPlugin.h
+
+##########################
+### PLUGIN
+##########################
+#TEMPLATE = lib
+#CONFIG += qt plugin
+#QT += qml
+
+#DESTDIR = qml/plugin
+#TARGET = plugin
+#SOURCES += \
+#    TestPlugin.cpp
