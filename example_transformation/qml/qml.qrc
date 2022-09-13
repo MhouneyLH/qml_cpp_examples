@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>plugin/Clock.qml</file>
+        <file>plugin/ClockBackground.qml</file>
+        <file>plugin/GenericClockHand.qml</file>
+        <file>plugin/HourClockHand.qml</file>
+        <file>plugin/MinuteClockHand.qml</file>
+        <file>plugin/SecondClockHand.qml</file>
+    </qresource>
+</RCC>
